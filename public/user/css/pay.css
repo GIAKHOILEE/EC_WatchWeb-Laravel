@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-image: url(https://samar.dexignzone.com/xhtml/images/background/bg17.png);
+}
+
+:root {
+    --gradient: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+}
+
+h1 {
+    color: tomato;
+    padding-bottom: 20px;
+}
+
+.all-pay {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.pay-left {
+    width: 40%;
+    margin-left: 50px;
+}
+
+.pay-right {
+    width: 50%;
+    padding-left: 30px;
+    border-left: 1px solid #ccc;
+}
+
+.pay-left h1 {
+    text-align: left;
+}
+
+.nguoinhan {
+    margin-bottom: 20px;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.SDT-ND {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.SDT-kh {
+    padding-left: 10px;
+}
+
+.diachi {
+    margin-bottom: 10px;
+}
+
+.bodykhachhang {
+    margin-left: 50px;
+}
+
+select {
+    height: 50px;
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.xaphuong {
+    height: 50px;
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.ghichund {
+    width: 60%;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.pay-headsp {
+    display: flex;
+    /* border-bottom: 3px solid #eaeaee; */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.head-sp {
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.head-tamtinh {
+    margin-bottom: 10px;
+    width: 40%;
+    text-align: right;
+}
+
+.pay-ttsp {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pay-tensp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pay-slsp {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tien {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.head-right {
+    border-bottom: 3px solid #eaeaee;
+    margin-bottom: 10px;
+}
+
+.total_money-title,
+.phi-giao-hang {
+    justify-content: space-between;
+}
+
+.button {
+    background: var(--gradient);
+    background-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+    background-position: left center;
+    transition: 0.5s;
+    height: 60px;
+    width: 140px;
+    font-size: 14.5px;
+    z-index: 5;
+    border: none;
+}
